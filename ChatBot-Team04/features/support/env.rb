@@ -1,8 +1,7 @@
 require 'rubygems'
 require 'aruba/cucumber'
 
-Before do 
-	@dirs= [Dir.pwd]
+Before do
 
-end
-
+	@dirs = [Dir.pwd]
+end 
