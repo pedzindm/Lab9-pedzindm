@@ -3,6 +3,6 @@ Given /^the application is running$/ do
    end
 
 Then /^ I should see "([^""]*)"$/ do |arg1|
-	assert_partial_output(arg1)
+	assert_partial_output(text)
     end
 
